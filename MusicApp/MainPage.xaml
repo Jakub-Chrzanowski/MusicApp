@@ -26,7 +26,7 @@
                             <Label Text="Playlist #1" FontAttributes="Bold" FontSize="20" TextColor="Black"/>
                             <Label Text="Jakaś tam playlista" FontSize="14" TextColor="Gray"/>
                         </StackLayout>
-                        <Button Text="Utwór 1" BackgroundColor="#E8E8E8" TextColor="Red" FontSize="16" HorizontalOptions="FillAndExpand" Margin="0,5" CornerRadius="50" IsEnabled="False"/>
+                        <Button Text="Utwór 1" BackgroundColor="#E8E8E8" TextColor="Red" FontSize="16"   HorizontalOptions="FillAndExpand" Margin="0,5" CornerRadius="50" IsEnabled="False"/>
                         <Button Text="Utwór 2" BackgroundColor="#E8E8E8" TextColor="Black" FontSize="16" HorizontalOptions="FillAndExpand" Margin="0,5" CornerRadius="50" IsEnabled="False"/>
                         <Button Text="Utwór 3" BackgroundColor="#E8E8E8" TextColor="Black" FontSize="16" HorizontalOptions="FillAndExpand" Margin="0,5" CornerRadius="50" IsEnabled="False"/>
                         <Button Text="Utwór 4" BackgroundColor="#E8E8E8" TextColor="Black" FontSize="16" HorizontalOptions="FillAndExpand" Margin="0,5" CornerRadius="50" IsEnabled="False"/>

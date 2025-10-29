@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicApp.MusicPage"
+             Title="MusicPage"
+             BackgroundColor="#EEF5E6">
+
+    <Grid RowDefinitions="Auto, Auto, *, Auto">
+        <Grid Grid.RowSpan="4" RowDefinitions="Auto, *, Auto" BackgroundColor="Transparent">
+            <ScrollView Grid.Row="0">
+                <Border Stroke="Black" StrokeThickness="1" BackgroundColor="#A9E4A3">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="40,40,40,40" />
+                    </Border.StrokeShape>
+                </Border>
+
+            </ScrollView>
+
+
+            <ScrollView Grid.Row="1">
+                <Border BackgroundColor="#FFFFFF" Padding="10" Margin="10">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="40,40,40,40" />
+                    </Border.StrokeShape>
+                    <StackLayout Margin="0,10">
+                        <StackLayout Padding="10">
+                            <Label Text="Playlist #1" FontAttributes="Bold" FontSize="20" TextColor="Black"/>
+                            <Label Text="Jakaś tam playlista" FontSize="14" TextColor="Gray"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Border>
+            </ScrollView>
+            <StackLayout Orientation="Horizontal" Margin="20,0,0,0" Grid.Row="2" Spacing="100">
+                <Image Source="previous.png" HeightRequest="50" WidthRequest="50" Margin="0,10"/>
+                <Image Source="stop.png" HeightRequest="50" WidthRequest="50"/>
+                <Image Source="another.png" HeightRequest="50" WidthRequest="50"/>
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>
