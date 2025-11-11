@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MusicApp.Services
 {
-    internal class SongModel
+    public class SongModel
     {
         public string Title { get; set; }
         public string Path { get; set; }
